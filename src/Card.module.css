@@ -1,0 +1,55 @@
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  flex-flow: row;
+}
+
+.animal-cards {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid black;
+  margin: 2rem 3rem;
+  padding: 5rem;
+}
+
+.card {
+  display: flex;
+  min-height: 5em;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+  text-align: center;
+}
+
+.message {
+  font-size: 16px;
+  padding: 2px;
+  text-align: center;
+  margin-right: 4px;
+}
