@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';// stackblitz cannot load static assets like this at this time, svg adde din line below
 import { Counter } from './features/counter/Counter';
+import { Card } from './features/card/Card';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           </g>
         </svg>
         <Counter />
+        <Card />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
