@@ -8,7 +8,7 @@ export const pokemonApi = createApi({
       query: (name) => `${name}`,
     }),
     getPokemonList: builder.query({
-      query: (page = 0) => `?limit=20&offset=${page}`,
+      query: (page = 0) => `?limit=20&offset=${page * 20}`,
     }),
   }),
 });
