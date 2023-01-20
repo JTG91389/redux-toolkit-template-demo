@@ -3,8 +3,6 @@ import counterReducer, { counterSlice } from '../features/counter/counterSlice';
 import cardReducer from '../features/card/cardReducer';
 import { pokemonApi } from '../services/pokemon';
 
-console.log(counterReducer.name);
-
 export const store = configureStore({
   reducer: {
     // note reusing the slice.name to use object notation to name our reducer
