@@ -1,0 +1,6 @@
+.pokemon-detail {
+  display: flex;
+  min-height: 15rem;
+  justify-content: center;
+  flex-direction: column;
+}

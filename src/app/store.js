@@ -13,4 +13,8 @@ export const store = configureStore({
     // note using RTKQuery object to fetch defined reducer path to allow use of object noation
     [pokemonApi.reducerPath]: pokemonApi.reducer,
   },
+  // Adding the api middleware enables caching, invalidation, polling,
+  // and other useful features of `rtk-query`.
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(pokemonApi.middleware),
 });

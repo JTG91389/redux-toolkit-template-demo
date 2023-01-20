@@ -11,6 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
+    {/* Note store is made available to app using this provider */}
     <Provider store={store}>
       <App />
     </Provider>

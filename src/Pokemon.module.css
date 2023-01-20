@@ -1,0 +1,23 @@
+.pokemon-item {
+  font-size: 24px;
+  margin: 1rem;
+}
+
+.pokemon-item:hover {
+  cursor: pointer;
+  color: rgba(112, 76, 182, 0.4);
+  font-weight: 700;
+}
+
+.pokemon-container {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid black;
+  margin: 2rem 3rem;
+  padding: 5rem;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+}
