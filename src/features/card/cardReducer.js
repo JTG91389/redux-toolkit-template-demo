@@ -20,10 +20,6 @@ const initialState = {
   status: _idle,
 };
 
-const isPendingAction = (action) => {
-  return action.type.endsWith('/pending');
-};
-
 export const selectCard = (state) => state.card;
 
 // default export of reducer
