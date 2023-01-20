@@ -4,6 +4,7 @@
   border: 1px solid black;
   margin: 2rem 3rem;
   padding: 5rem;
+  max-width: 37rem;
 }
 
 .card {
